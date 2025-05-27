@@ -59,3 +59,5 @@ We suggest that you begin by typing:
 
 
     Lecture 14=>Assignment register and sign in
+//lecture 22
+npx playwright test tests/sign-up.spec.js --debug

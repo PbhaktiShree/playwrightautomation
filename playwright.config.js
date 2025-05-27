@@ -13,6 +13,9 @@ const config=({
     browserName:'chromium',
     headless: false,      // 👈 show browser window
     //slowMo: 1000,
+    screenshot:'on', //https://trace.playwright.dev/ lectture 25
+    //trace:'on'
+    trace:'retain-on-failure' //give screenshort on fail the test case lectture 25
   },
 
   
