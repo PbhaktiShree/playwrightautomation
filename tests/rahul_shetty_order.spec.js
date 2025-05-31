@@ -39,7 +39,6 @@ test('login',async({page})=>{
         {
             console.log("product found at "+i);
             await products.nth(i).locator("text=Add To Cart").click();
-            
             break;
         }
     }
@@ -83,9 +82,6 @@ test('login',async({page})=>{
         }
     }
     await page.pause();
-    // const cards = await page.locator('#products .card');
-    // console.log('count=' + await cards.count());
-    //await page.pause();
     
 
 });
